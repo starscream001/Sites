@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Презентация: Владимир Мономах</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .slide {
+            display: none;
+            padding: 20px;
+            text-align: center;
+        }
+        .slide.active {
+            display: block;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 20px;
+        }
+        .navigation {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .navigation button {
+            padding: 10px 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide active">
+        <h1>Владимир Мономах</h1>
+        <p>Великий князь Киевский, полководец и мыслитель</p>
+        <img src="https://example.com/monomah.jpg" alt="Владимир Мономах">
+    </div>
+
+    <div class="slide">
+        <h1>Ранние годы</h1>
+        <p>Владимир Мономах родился в 1053 году. Он был сыном Всеволода Ярославича и Анны, дочери византийского императора Константина IX Мономаха.</p>
+        <p>С ранних лет он проявлял интерес к военному делу и политике.</p>
+    </div>
+
+    <div class="slide">
+        <h1>Правление</h1>
+        <p>Владимир Мономах стал великим князем Киевским в 1113 году. Его правление ознаменовалось укреплением Руси и борьбой с внешними врагами.</p>
+        <p>Он успешно воевал с половцами и стремился к объединению русских земель.</p>
+    </div>
+
+    <div class="slide">
+        <h1>«Поучение Владимира Мономаха»</h1>
+        <p>Одним из самых известных произведений Мономаха является его «Поучение детям», в котором он делится мудростью и наставлениями о жизни, управлении и вере.</p>
+        <p>Этот текст считается важным памятником древнерусской литературы.</p>
+    </div>
+
+    <div class="slide">
+        <h1>Наследие</h1>
+        <p>Владимир Мономах умер в 1125 году, оставив после себя сильное государство и богатое культурное наследие.</p>
+        <p>Его правление считается одним из самых успешных в истории Киевской Руси.</p>
+    </div>
+
+    <div class="navigation">
+        <button onclick="prevSlide()">Назад</button>
+        <button onclick="nextSlide()">Вперед</button>
+    </div>
+
+    <script>
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+
+        function showSlide(index) {
+            slides.forEach((slide, i) => {
+                slide.classList.toggle('active', i === index);
+            });
+        }
+
+        function nextSlide() {
+            currentSlide = (currentSlide + 1) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        function prevSlide() {
+            currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+            showSlide(currentSlide);
+        }
+
+        showSlide(currentSlide);
+    </script>
+
+</body>
+</html>
