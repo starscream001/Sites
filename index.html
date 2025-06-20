@@ -1,86 +1,112 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Презентация: Социальные работники</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f4f4f9;
-            color: #333;
-            margin: 0;
-            padding: 0;
-        }
-        .slide {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            padding: 20px;
-            text-align: center;
-            background-color: #ffffff;
-            border-bottom: 2px solid #ddd;
-        }
-        h1 {
-            font-size: 2.5rem;
-            color: #2c3e50;
-        }
-        h2 {
-            font-size: 2rem;
-            color: #34495e;
-        }
-        p {
-            font-size: 1.2rem;
-            color: #7f8c8d;
-        }
-        img {
-            max-width: 100%;
-            height: auto;
-            border-radius: 10px;
-            margin: 20px 0;
-        }
-        .button {
-            background-color: #3498db;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 5px;
-            text-decoration: none;
-            font-size: 1rem;
-            margin-top: 20px;
-        }
-        .button:hover {
-            background-color: #2980b9;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ипповенция</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Helvetica Neue", sans-serif;
+      color: #222;
+      background-color: #fdfdfd;
+      scroll-behavior: smooth;
+    }
+    header {
+      text-align: center;
+      padding: 60px 20px 30px;
+    }
+    header h1 {
+      font-size: 2.5em;
+      margin: 0 0 20px;
+    }
+    header p {
+      font-size: 1.2em;
+      max-width: 600px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 800px;
+      margin: auto;
+    }
+    h2 {
+      font-size: 1.8em;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 30px;
+      padding: 12px 24px;
+      background-color: #222;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 6px;
+      transition: background 0.3s ease;
+    }
+    .btn:hover {
+      background-color: #444;
+    }
+    footer {
+      background-color: #f3f3f3;
+      padding: 30px 20px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+    }
+    #record {
+      background-color: #f9f9f9;
+      text-align: center;
+    }
+  </style>
 </head>
 <body>
+  <header>
+    <h1>Ипповенция</h1>
+    <p>Метод естественного восстановления и укрепления организма, основанный на синергии дыхания, микродвижений и телесной осознанности.</p>
+  </header>
 
-    <div class="slide">
-        <h1>Социальные работники</h1>
-        <p>Роль и значение в обществе</p>
-        <img src="https://source.unsplash.com/800x600/?social,worker" alt="Социальный работник">
-    </div>
+  <section>
+    <h2>Что это?</h2>
+    <p>Ипповенция — это авторский метод мягкой практики, направленный на улучшение самочувствия, восстановление подвижности суставов, снятие напряжения и глубокую перезагрузку организма.</p>
+  </section>
 
-    <div class="slide">
-        <h2>Основные задачи</h2>
-        <p>Помощь нуждающимся, поддержка семей, работа с пожилыми людьми</p>
-        <img src="https://source.unsplash.com/800x600/?help,care" alt="Помощь">
-    </div>
+  <section>
+    <h2>Польза</h2>
+    <ul>
+      <li>Улучшение кровообращения и лимфотока</li>
+      <li>Снятие зажимов и стрессов</li>
+      <li>Гармонизация дыхания и психоэмоционального состояния</li>
+      <li>Безопасная практика для всех возрастов</li>
+    </ul>
+  </section>
 
-    <div class="slide">
-        <h2>Профессиональные навыки</h2>
-        <p>Коммуникация, эмпатия, решение проблем</p>
-        <img src="https://source.unsplash.com/800x600/?communication,empathy" alt="Навыки">
-    </div>
+  <section>
+    <h2>Адрес</h2>
+    <p>Санкт-Петербург, наб. реки Фонтанки, д. 108, зал 3, йога-пространство "Баланс"</p>
+    <a href="#record" class="btn">Записаться</a>
+  </section>
 
-    <div class="slide">
-        <h2>Будущее профессии</h2>
-        <p>Развитие технологий и новые подходы в социальной работе</p>
-        <img src="https://source.unsplash.com/800x600/?future,technology" alt="Будущее">
-        <a href="#" class="button">Узнать больше</a>
-    </div>
+  <section id="record">
+    <h2>Запись на занятие</h2>
+    <p>Чтобы записаться, напишите нам в Telegram:</p>
+    <a class="btn" href="https://t.me/your_bot_username" target="_blank">Открыть Telegram</a>
+  </section>
 
+  <footer>
+    &copy; 2025 Ипповенция. Все права защищены.
+  </footer>
+
+  <script>
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener("click", function (e) {
+        e.preventDefault();
+        document.querySelector(this.getAttribute("href")).scrollIntoView({
+          behavior: "smooth"
+        });
+      });
+    });
+  </script>
 </body>
 </html>
