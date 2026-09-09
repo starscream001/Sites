@@ -1,112 +1,45 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Ипповенция</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: "Helvetica Neue", sans-serif;
-      color: #222;
-      background-color: #fdfdfd;
-      scroll-behavior: smooth;
-    }
-    header {
-      text-align: center;
-      padding: 60px 20px 30px;
-    }
-    header h1 {
-      font-size: 2.5em;
-      margin: 0 0 20px;
-    }
-    header p {
-      font-size: 1.2em;
-      max-width: 600px;
-      margin: 0 auto;
-      line-height: 1.5;
-    }
-    section {
-      padding: 40px 20px;
-      max-width: 800px;
-      margin: auto;
-    }
-    h2 {
-      font-size: 1.8em;
-      margin-bottom: 20px;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 30px;
-      padding: 12px 24px;
-      background-color: #222;
-      color: #fff;
-      text-decoration: none;
-      border-radius: 6px;
-      transition: background 0.3s ease;
-    }
-    .btn:hover {
-      background-color: #444;
-    }
-    footer {
-      background-color: #f3f3f3;
-      padding: 30px 20px;
-      text-align: center;
-      font-size: 0.9em;
-      color: #666;
-    }
-    #record {
-      background-color: #f9f9f9;
-      text-align: center;
-    }
-  </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#2459d4">
+  <meta name="description" content="График 446: персональный календарь работы, выходных и отпусков. Сентябрь–декабрь 2026.">
+  <title>График 446 · Рабочий календарь</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-  <header>
-    <h1>Ипповенция</h1>
-    <p>Метод естественного восстановления и укрепления организма, основанный на синергии дыхания, микродвижений и телесной осознанности.</p>
-  </header>
-
-  <section>
-    <h2>Что это?</h2>
-    <p>Ипповенция — это авторский метод мягкой практики, направленный на улучшение самочувствия, восстановление подвижности суставов, снятие напряжения и глубокую перезагрузку организма.</p>
-  </section>
-
-  <section>
-    <h2>Польза</h2>
-    <ul>
-      <li>Улучшение кровообращения и лимфотока</li>
-      <li>Снятие зажимов и стрессов</li>
-      <li>Гармонизация дыхания и психоэмоционального состояния</li>
-      <li>Безопасная практика для всех возрастов</li>
-    </ul>
-  </section>
-
-  <section>
-    <h2>Адрес</h2>
-    <p>Санкт-Петербург, наб. реки Фонтанки, д. 108, зал 3, йога-пространство "Баланс"</p>
-    <a href="#record" class="btn">Записаться</a>
-  </section>
-
-  <section id="record">
-    <h2>Запись на занятие</h2>
-    <p>Чтобы записаться, напишите нам в Telegram:</p>
-    <a class="btn" href="https://t.me/your_bot_username" target="_blank">Открыть Telegram</a>
-  </section>
-
-  <footer>
-    &copy; 2025 Ипповенция. Все права защищены.
-  </footer>
-
-  <script>
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        document.querySelector(this.getAttribute("href")).scrollIntoView({
-          behavior: "smooth"
-        });
-      });
-    });
-  </script>
+  <a class="skip" href="#calendar">К календарю</a>
+  <header class="topbar"><div class="brand"><span class="brand-mark">446</span><span>Рабочий календарь</span></div><span class="edition">СЕНТЯБРЬ — ДЕКАБРЬ / 2026</span></header>
+  <main class="workspace">
+    <aside class="sidebar">
+      <div class="section-label">ЛИЧНЫЙ ГРАФИК</div>
+      <h1>Всё по дням.</h1>
+      <label class="field-label" for="person">Сотрудник</label>
+      <select id="person"></select>
+      <div class="person-card"><span class="avatar" id="initials"></span><div><strong id="person-name"></strong><span class="muted" id="person-subtitle"></span></div></div>
+      <div class="sidebar-summary"><span class="section-label">ЗА 4 МЕСЯЦА</span><div id="period-total"></div><p>Сентябрь — декабрь 2026</p></div>
+      <div class="source-note"><span class="source-dot"></span><div>Из «ГРАФИК 446.ods»<small>График и отпуска · 2026</small></div></div>
+    </aside>
+    <div class="main-panel">
+      <div class="page-heading"><div><span class="section-label">ВАШЕ РАСПИСАНИЕ</span><h2 id="month-title">Сентябрь <span>2026</span></h2></div><button id="today" class="button">Сегодня</button></div>
+      <nav class="month-tabs" aria-label="Выбор месяца" id="months"></nav>
+      <section class="stats" aria-label="Итоги месяца" id="stats" aria-live="polite"></section>
+      <section class="calendar-card" id="calendar" aria-label="Календарь сотрудника">
+        <div class="calendar-toolbar"><div class="legend"><span><i class="work-dot"></i>Работа</span><span><i class="off-dot"></i>Выходной</span><span><i class="vacation-dot"></i>Отпуск</span></div><div class="view-switch" aria-label="Вид графика"><button id="grid-view" aria-pressed="true">Месяц</button><button id="list-view" aria-pressed="false">Список</button></div></div>
+        <div id="calendar-content"></div>
+        <div id="day-detail" class="day-detail" aria-live="polite"></div>
+      </section>
+      <div class="lower-grid">
+        <section class="vacation-panel"><div class="section-label">ОТДЫХ</div><h3>Отпуска · 2026</h3><div id="vacations"></div></section>
+        <section class="overview-panel"><div class="section-label">ВЕСЬ ПЕРИОД</div><h3>Четыре месяца</h3><div id="overview"></div></section>
+      </div>
+      <details class="method"><summary>Как считаются часы и выходные</summary><p>Одна отметка «9» — рабочая смена с началом в 09:00, длительность — 12 часов. Часы = количество смен × 12. Пустая ячейка в строке сотрудника считается выходным, «о» — отпуском. Отпуск не включается в выходные и рабочие часы. Если строки сотрудника нет, показываем отсутствие данных, а не нулевую занятость.</p><p>Календарь и итоги берутся из листа «ГРАФИК». Недельные отметки листа «отпуска», блок 2026 года, показаны отдельно: красная заливка и отметка «1» сохранены как разные обозначения. Точные даты и длительность из недель не вычисляются. Это снимок предоставленного файла; изменения в исходной таблице автоматически не загружаются.</p></details>
+      <footer>ГРАФИК 446 <span>Сентябрь — декабрь 2026</span></footer>
+    </div>
+  </main>
+  <noscript>Для выбора сотрудника и просмотра календаря включите JavaScript.</noscript>
+  <script type="module" src="./app.js"></script>
 </body>
 </html>
