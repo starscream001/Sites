@@ -1,3 +1,4 @@
+import {buildDilitown} from './build-dilitown.mjs';
 import {validate} from './validate.mjs';
 import {access,readFile,writeFile,mkdir,cp,rm} from 'node:fs/promises';
 export const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
@@ -30,6 +31,7 @@ pages['privacy.html']=layout('Условия и конфиденциальнос
 pages['favorites.html']=layout('Избранное','Материалы, сохранённые на этом устройстве',intro('ВАША КОЛЛЕКЦИЯ','Сохранённые <em>материалы</em>','Избранное хранится только в этом браузере, без регистрации и синхронизации.')+`<div class="cards" id="favorite-list">${articles.map((a,i)=>`<div data-favorite-id="${a.id}">${card(a,i)}</div>`).join('')}</div><p class="notice" id="favorite-empty" hidden>Пока здесь пусто. Откройте статью и нажмите «Сохранить в избранное».</p>`,'favorites.html');
 pages['404.html']=layout('Страница не найдена','Вернуться к коллекции',intro('404','Эта тропинка <em>не найдена</em>','Возможно, адрес изменился. Продолжите знакомство с коллекцией.')+'<a class="button" href="./">На главную →</a>','404.html');
 for(const [name,html] of Object.entries(pages))await writeFile('dist/'+name,html);
+await buildDilitown();
 const index=[...articles.map(a=>({title:a.title,text:[a.summary,...a.paragraphs,...a.sources.map(id=>src(id)?.author)].join(' '),url:a.id+'.html',section:a.section,era:a.era})),...d.plants.map(p=>({title:p.title,text:[p.title,p.latin,p.origin,p.use,p.context].join(' '),url:'plants.html',section:'Растения',era:''})),...d.sources.map(s=>({title:s.title,text:[s.title,s.author,s.year,s.region].join(' '),url:'sources.html',section:'Источники',era:''})),...d.events.map(e=>({title:e.title,text:[e.year,e.title,e.region,e.type,e.certainty].join(' '),url:e.article+'.html',section:'Хронология',era:e.year<1900?'XIX век':''}))];
 await writeFile('dist/search-index.json',JSON.stringify(index));
 await writeFile('dist/sitemap.xml',`<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${Object.keys(pages).filter(x=>x!=='404.html'&&x!=='search.html').map(p=>`<url><loc>${esc(base)}/${p==='index.html'?'':p}</loc></url>`).join('')}</urlset>`);await writeFile('dist/robots.txt',`User-agent: *\nAllow: /\nDisallow: /admin\nDisallow: /api/\nSitemap: ${base}/sitemap.xml\n`);console.log(`Built ${Object.keys(pages).length} pages`);

@@ -1,0 +1,2172 @@
+{
+  "title": "DiliTown · карта сайта и опыта гостя",
+  "date": "2026-10-16",
+  "root": "https://dilitown.am/ru",
+  "sources": [
+    {
+      "id": "home",
+      "title": "Главная",
+      "url": "https://dilitown.am/ru"
+    },
+    {
+      "id": "rooms",
+      "title": "Каталог размещения",
+      "url": "https://dilitown.am/ru/rooms"
+    },
+    {
+      "id": "booking",
+      "title": "Бронирование Exely",
+      "url": "https://dilitown.am/ru/booking"
+    },
+    {
+      "id": "spa",
+      "title": "Бассейн и SPA",
+      "url": "https://dilitown.am/ru/spa"
+    },
+    {
+      "id": "dining",
+      "title": "Ресторан и бары",
+      "url": "https://dilitown.am/ru/dining"
+    },
+    {
+      "id": "events",
+      "title": "Мероприятия",
+      "url": "https://dilitown.am/ru/events"
+    },
+    {
+      "id": "about",
+      "title": "О нас",
+      "url": "https://dilitown.am/ru/about-us"
+    },
+    {
+      "id": "conference",
+      "title": "Конференц-залы",
+      "url": "https://dilitown.am/ru/conference"
+    },
+    {
+      "id": "kids",
+      "title": "Детская зона",
+      "url": "https://dilitown.am/ru/keed"
+    },
+    {
+      "id": "gym",
+      "title": "Спортзал",
+      "url": "https://dilitown.am/ru/gym"
+    },
+    {
+      "id": "contact",
+      "title": "Контакты",
+      "url": "https://dilitown.am/ru/contact-us"
+    },
+    {
+      "id": "career",
+      "title": "Карьера",
+      "url": "https://dilitown.am/ru/career"
+    },
+    {
+      "id": "terms",
+      "title": "Условия",
+      "url": "https://dilitown.am/ru/terms-conditions"
+    },
+    {
+      "id": "small",
+      "title": "Small Townhouse",
+      "url": "https://dilitown.am/ru/reservation/phvoqr-arandznatvoun"
+    },
+    {
+      "id": "big",
+      "title": "Big Townhouse",
+      "url": "https://dilitown.am/ru/reservation/mets-arandznatvoun"
+    },
+    {
+      "id": "king",
+      "title": "Classic King Room",
+      "url": "https://dilitown.am/ru/reservation/classic-king-room"
+    },
+    {
+      "id": "twin",
+      "title": "Classic Twin Room",
+      "url": "https://dilitown.am/ru/reservation/classic-twin-room"
+    },
+    {
+      "id": "deluxe",
+      "title": "Deluxe",
+      "url": "https://dilitown.am/ru/reservation/deluxe"
+    },
+    {
+      "id": "family",
+      "title": "Family Deluxe",
+      "url": "https://dilitown.am/ru/reservation/1750494635"
+    },
+    {
+      "id": "master",
+      "title": "Suite Master",
+      "url": "https://dilitown.am/ru/reservation/suite-master"
+    },
+    {
+      "id": "executive",
+      "title": "Executive Suite",
+      "url": "https://dilitown.am/ru/reservation/executive-suite"
+    },
+    {
+      "id": "three",
+      "title": "Three-Bedroom Apartment — категория",
+      "url": "https://dilitown.am/ru/rooms/three-bedroom-apartment"
+    },
+    {
+      "id": "manager1",
+      "title": "Вакансия manager-1",
+      "url": "https://dilitown.am/ru/career/manager-1"
+    },
+    {
+      "id": "manager",
+      "title": "Вакансия manager",
+      "url": "https://dilitown.am/ru/career/manager"
+    },
+    {
+      "id": "rooms-en",
+      "title": "Каталог без языкового префикса",
+      "url": "https://dilitown.am/rooms"
+    }
+  ],
+  "branches": [
+    {
+      "id": "n21",
+      "title": "Структура и навигация",
+      "note": "Карта видимых разделов и повторяющихся элементов. Структура отражает обследованную русскую версию.",
+      "kind": "group",
+      "sources": [
+        "home"
+      ],
+      "children": [
+        {
+          "id": "n4",
+          "title": "Главная /ru",
+          "note": "",
+          "kind": "group",
+          "sources": [
+            "home"
+          ],
+          "children": [
+            {
+              "id": "n1",
+              "title": "Витрина курортного комплекса",
+              "note": "Вход в размещение, wellness, гастрономию и дополнительные услуги.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n2",
+              "title": "Карточки направлений",
+              "note": "Номера, SPA, ресторан, конференции, дети, спортзал.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n3",
+              "title": "Практическая информация",
+              "note": "На главной опубликованы часы заселения и правила отмены.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n9",
+          "title": "Основное меню",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n5",
+              "title": "Бронирование → /ru/booking",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n6",
+              "title": "SPA → /ru/spa",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n7",
+              "title": "Ресторан → /ru/dining",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n8",
+              "title": "Мероприятия → /ru/events",
+              "note": "В верхнем меню главной ведёт на events; в дополнительном меню booking обнаружен переход на rooms.",
+              "kind": "observation",
+              "sources": [
+                "home",
+                "booking"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n15",
+          "title": "Дополнительное меню",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n10",
+              "title": "О нас",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "about"
+              ],
+              "children": []
+            },
+            {
+              "id": "n11",
+              "title": "Спортзал",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "gym"
+              ],
+              "children": []
+            },
+            {
+              "id": "n12",
+              "title": "Конференц-залы",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "conference"
+              ],
+              "children": []
+            },
+            {
+              "id": "n13",
+              "title": "Детская зона",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n14",
+              "title": "Контакты",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n20",
+          "title": "Футер и языки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n16",
+              "title": "Карьера и условия",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "career",
+                "terms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n17",
+              "title": "Русский, армянский, английский",
+              "note": "Переключатели RU / AM / EN присутствуют; все переводы по содержанию не сверялись.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n18",
+              "title": "Ссылки услуг без /ru",
+              "note": "В футере русской страницы ведут на /rooms, /spa и другие адреса. Каталог /rooms открылся на английском.",
+              "kind": "observation",
+              "sources": [
+                "home",
+                "rooms-en"
+              ],
+              "children": []
+            },
+            {
+              "id": "n19",
+              "title": "Конфиденциальность как текст",
+              "note": "В изученном футере название не было отдельной доступной ссылкой.",
+              "kind": "observation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "01",
+      "color": "#2f6450"
+    },
+    {
+      "id": "n35",
+      "title": "Бренд и аудитория",
+      "note": "Аудитории и мотивы — гипотезы для планирования, а не результаты аналитики посетителей.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n25",
+          "title": "Предложение курорта",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n22",
+              "title": "Dili Town Resort & SPA",
+              "note": "Комплекс в Дилижане, Армения; объединяет несколько направлений отдыха.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n23",
+              "title": "Жить + отдыхать + восстанавливаться",
+              "note": "Размещение, wellness, питание и досуг связаны в единый продукт.",
+              "kind": "inference",
+              "sources": [
+                "rooms",
+                "spa",
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n24",
+              "title": "Визуальное доверие",
+              "note": "Фотографии номеров и инфраструктуры помогают оценить окружение.",
+              "kind": "inference",
+              "sources": [
+                "rooms",
+                "events"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n30",
+          "title": "Сегменты — аналитическая модель",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n26",
+              "title": "Пары и индивидуальные гости",
+              "note": "Возможный мотив: короткий отдых и SPA. Это интерпретация предложения, не данные аудитории.",
+              "kind": "inference",
+              "sources": [
+                "spa",
+                "king"
+              ],
+              "children": []
+            },
+            {
+              "id": "n27",
+              "title": "Семьи с детьми",
+              "note": "Семейные номера и детские зоны дают основания выделить этот сценарий.",
+              "kind": "inference",
+              "sources": [
+                "family",
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n28",
+              "title": "Компании и организаторы",
+              "note": "Залы и ресторан поддерживают деловые и праздничные поездки.",
+              "kind": "inference",
+              "sources": [
+                "conference",
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n29",
+              "title": "Группы и длительное проживание",
+              "note": "Таунхаусы с кухней могут подходить группам; реальные сегменты нужно проверить.",
+              "kind": "inference",
+              "sources": [
+                "small",
+                "big"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n34",
+          "title": "Доверие к бренду",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n31",
+              "title": "«О нас» описывает GreenDoor",
+              "note": "Основной текст посвящён ресторану и гастрономии, а не истории всего курорта.",
+              "kind": "observation",
+              "sources": [
+                "about"
+              ],
+              "children": []
+            },
+            {
+              "id": "n32",
+              "title": "Уточнить историю комплекса",
+              "note": "Добавить описание курорта, команду и подтверждённые отличия.",
+              "kind": "recommendation",
+              "sources": [
+                "about"
+              ],
+              "children": []
+            },
+            {
+              "id": "n33",
+              "title": "Доказывать обещания",
+              "note": "Отзывы, даты обновлений, реальные фотографии и конкретные условия вместо общих превосходных форм.",
+              "kind": "recommendation",
+              "sources": [
+                "home",
+                "spa"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "02",
+      "color": "#8c623e"
+    },
+    {
+      "id": "n56",
+      "title": "Размещение и каталог",
+      "note": "Восемь детальных типов размещения и отдельная категория трёхспальных апартаментов. Цены не закрепляются в карте как действующие.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n42",
+          "title": "Номера",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n36",
+              "title": "Classic King Room · 28 м²",
+              "note": "На карточке: 1 человек, кровать King, балкон 5 м²; фактическую вместимость уточнять по тарифу.",
+              "kind": "fact",
+              "sources": [
+                "king"
+              ],
+              "children": []
+            },
+            {
+              "id": "n37",
+              "title": "Classic Twin Room · 28 м²",
+              "note": "Карточка указывает 2 гостей, раздельные кровати, балкон 5 м².",
+              "kind": "fact",
+              "sources": [
+                "twin"
+              ],
+              "children": []
+            },
+            {
+              "id": "n38",
+              "title": "Deluxe · 47 м²",
+              "note": "Указаны 3 гостя, кровать King и основные удобства.",
+              "kind": "fact",
+              "sources": [
+                "deluxe"
+              ],
+              "children": []
+            },
+            {
+              "id": "n39",
+              "title": "Family Deluxe · 54 м²",
+              "note": "Описаны двуспальная и двухъярусная кровати; индикатор показывает 2 гостей. Требуется пояснение вместимости.",
+              "kind": "observation",
+              "sources": [
+                "family"
+              ],
+              "children": []
+            },
+            {
+              "id": "n40",
+              "title": "Suite Master · 67 м²",
+              "note": "Гостиная-студия, спальня, терраса и подогреваемое джакузи.",
+              "kind": "fact",
+              "sources": [
+                "master"
+              ],
+              "children": []
+            },
+            {
+              "id": "n41",
+              "title": "Executive Suite · 120 м²",
+              "note": "Отдельная гостиная, оснащённая кухня, балкон и терраса с джакузи.",
+              "kind": "fact",
+              "sources": [
+                "executive"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n46",
+          "title": "Таунхаусы и апартаменты",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n43",
+              "title": "Small Townhouse · 78 м²",
+              "note": "Кухня, балкон. Текст говорит о 4–6 гостях, пиктограмма — о 4.",
+              "kind": "observation",
+              "sources": [
+                "small"
+              ],
+              "children": []
+            },
+            {
+              "id": "n44",
+              "title": "Big Townhouse · 107 м²",
+              "note": "Кухня и терраса; также различаются текст 4–6 и индикатор 4.",
+              "kind": "observation",
+              "sources": [
+                "big"
+              ],
+              "children": []
+            },
+            {
+              "id": "n45",
+              "title": "Three-Bedroom Apartment",
+              "note": "Категория существует; в полученном представлении карточки отсутствовали. Не означает отсутствия предложения в системе бронирования.",
+              "kind": "observation",
+              "sources": [
+                "three"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n51",
+          "title": "Анатомия карточки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n47",
+              "title": "Описание и характеристики",
+              "note": "Площадь, вместимость, тип кроватей и перечень удобств.",
+              "kind": "fact",
+              "sources": [
+                "king"
+              ],
+              "children": []
+            },
+            {
+              "id": "n48",
+              "title": "Галерея + похожие варианты",
+              "note": "На детальной странице есть фотографии и перекрёстные предложения.",
+              "kind": "fact",
+              "sources": [
+                "small"
+              ],
+              "children": []
+            },
+            {
+              "id": "n49",
+              "title": "Забронировать",
+              "note": "Из карточки можно начать локальный сценарий выбора дат и контактов.",
+              "kind": "fact",
+              "sources": [
+                "master"
+              ],
+              "children": []
+            },
+            {
+              "id": "n50",
+              "title": "Цена в AMD",
+              "note": "В рекомендательных блоках опубликованы суммы. Это не проверенные актуальные тарифы на выбранные даты.",
+              "kind": "unverified",
+              "sources": [
+                "small"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n55",
+          "title": "Что улучшить",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n52",
+              "title": "Единая вместимость",
+              "note": "Согласовать карточку, описание, детей, дополнительные места и тариф.",
+              "kind": "recommendation",
+              "sources": [
+                "family",
+                "small",
+                "big"
+              ],
+              "children": []
+            },
+            {
+              "id": "n53",
+              "title": "Понятные отличия категорий",
+              "note": "Сравнение по кухне, террасе, джакузи и составу группы.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n54",
+              "title": "Убрать test",
+              "note": "В каталоге и категории присутствует элемент test. Проверить назначение и скрыть тестовый контент.",
+              "kind": "observation",
+              "sources": [
+                "rooms",
+                "three"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "03",
+      "color": "#426b91"
+    },
+    {
+      "id": "n75",
+      "title": "Бронирование и конверсия",
+      "note": "Ни бронирования, ни заявки, ни оплаты в ходе исследования не создавались.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n60",
+          "title": "Путь A · Exely",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n57",
+              "title": "/ru/booking",
+              "note": "Отдельная страница с встроенным модулем; в браузере виден контейнер be-booking-form.",
+              "kind": "observation",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n58",
+              "title": "Внешняя интеграция",
+              "note": "В интерфейсе сайта присутствует ссылка на Exely; это не подтверждает состав внутренней PMS.",
+              "kind": "observation",
+              "sources": [
+                "booking",
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n59",
+              "title": "Динамическое содержимое",
+              "note": "При осмотре виджет отобразился частично. Доступность тарифов, оплата и подтверждение не проверены.",
+              "kind": "unverified",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n65",
+          "title": "Путь B · собственный каталог",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n61",
+              "title": "Поиск размещения",
+              "note": "В текстовом представлении каталога есть поля дат и селекторы. В живой странице также виден iframe Exely: заезд, выезд, взрослые и дети, кнопка поиска. Связь со старой формой требует проверки.",
+              "kind": "observation",
+              "sources": [
+                "rooms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n62",
+              "title": "Карточка → даты → гости",
+              "note": "Детальные страницы содержат форму дат и выбора числа гостей.",
+              "kind": "fact",
+              "sources": [
+                "small"
+              ],
+              "children": []
+            },
+            {
+              "id": "n63",
+              "title": "Контактный шаг",
+              "note": "В разметке представлены поля ФИО, телефона и email. Форма не отправлялась.",
+              "kind": "observation",
+              "sources": [
+                "king"
+              ],
+              "children": []
+            },
+            {
+              "id": "n64",
+              "title": "Финал сценария",
+              "note": "Фактическое создание заявки, уведомления, оплата и подтверждение не выполнялись.",
+              "kind": "unverified",
+              "sources": [
+                "king"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n69",
+          "title": "Условия поездки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n66",
+              "title": "Заезд 15:00 / выезд 12:00",
+              "note": "Время опубликовано на главной.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n67",
+              "title": "Отмена за 7 дней",
+              "note": "На главной: бесплатная отмена не позднее 7 дней; ближе к заезду — стоимость первой ночи. Это текст сайта, не проверка конкретного тарифа.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n68",
+              "title": "Согласованность условий",
+              "note": "Сопоставить главную, карточки, Exely и письмо подтверждения.",
+              "kind": "recommendation",
+              "sources": [
+                "home",
+                "booking"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n74",
+          "title": "Проверка воронки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n70",
+              "title": "Единый основной путь",
+              "note": "Определить роль каталога и Exely, исключить конкурирующие сценарии.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms",
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n71",
+              "title": "Состояния формы",
+              "note": "Проверить ошибки, отсутствие мест, загрузку и альтернативу при недоступности виджета.",
+              "kind": "recommendation",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n72",
+              "title": "Переход с сохранением выбора",
+              "note": "Передавать даты, состав гостей, язык и тип номера между шагами.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms",
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n73",
+              "title": "События аналитики",
+              "note": "Отслеживать старт, выбор номера, переход к оплате и успешное завершение после интеграции.",
+              "kind": "recommendation",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "04",
+      "color": "#7860a0"
+    },
+    {
+      "id": "n93",
+      "title": "SPA и бассейны",
+      "note": "Фиксируются названия зон и структура предложения. Медицинские утверждения сайта не воспроизводятся как факты.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n78",
+          "title": "Blue Door SPA",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n76",
+              "title": "4 подогреваемых бассейна",
+              "note": "На SPA-странице заявлены 3 крытых и 1 открытый бассейн с круглогодичным использованием.",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n77",
+              "title": "Контекст отдыха",
+              "note": "Температуру воды сайт описывает как адаптируемую к сезону; конкретных значений в изученном тексте нет.",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n87",
+          "title": "Опубликованные комнаты",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n79",
+              "title": "Сухая сауна",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n80",
+              "title": "Соляная комната",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n81",
+              "title": "Массажная комната",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n82",
+              "title": "Травяная ингаляция",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n83",
+              "title": "Холодная вода",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n84",
+              "title": "Чайная комната",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n85",
+              "title": "Эфирные масла",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n86",
+              "title": "Тёплая вода",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n92",
+          "title": "Уточнения для посетителя",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n88",
+              "title": "Состав SPA-предложения",
+              "note": "На главной говорится о 10 SPA-комнатах; на детальной странице прочитаны 8 названных зон. Нужна сверка полного перечня.",
+              "kind": "observation",
+              "sources": [
+                "home",
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n89",
+              "title": "Условия посещения",
+              "note": "Уточнить часы, тарифы, длительность и доступ для гостей вне отеля.",
+              "kind": "recommendation",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n90",
+              "title": "Запись на процедуры",
+              "note": "Сделать заметными способ записи, доступность и правила отмены.",
+              "kind": "recommendation",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n91",
+              "title": "Корректность обещаний",
+              "note": "Оздоровительные заявления на странице требуют редакционной проверки. Карта не подтверждает медицинскую эффективность.",
+              "kind": "recommendation",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "05",
+      "color": "#327a82"
+    },
+    {
+      "id": "n107",
+      "title": "Ресторан и бары",
+      "note": "Вместимости — заявления сайта, не измеренные параметры; для конкретного события нужна проверка у площадки.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n97",
+          "title": "GreenDoor",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n94",
+              "title": "Армянская и европейская кухня",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n95",
+              "title": "Два объединяемых зала",
+              "note": "Пространства можно использовать раздельно или совместно.",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n96",
+              "title": "300–350 гостей",
+              "note": "Такую вместимость ресторана указывает главная. Условия рассадки не уточнены.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n101",
+          "title": "Другие площадки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n98",
+              "title": "Lounge Bar · до 30 гостей",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n99",
+              "title": "Rooftop Bar · до 50 гостей",
+              "note": "",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n100",
+              "title": "Фотографии каждого пространства",
+              "note": "На странице раздельные галереи ресторана, Lounge и Rooftop.",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n106",
+          "title": "Сценарии и развитие",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n102",
+              "title": "Ужин во время проживания",
+              "note": "Связь с размещением — логичный пользовательский сценарий, не доказательство включённого питания.",
+              "kind": "inference",
+              "sources": [
+                "rooms",
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n103",
+              "title": "Семейное или деловое событие",
+              "note": "Назначение площадок поддержано описанием ресторана.",
+              "kind": "fact",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n104",
+              "title": "Меню и часы работы",
+              "note": "Добавить актуальное меню, расписание, условия завтрака и доступ для внешних гостей.",
+              "kind": "recommendation",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n105",
+              "title": "Забронировать стол / площадку",
+              "note": "Развести индивидуальный стол и заявку на банкет. Номер ресторана опубликован в контактах.",
+              "kind": "recommendation",
+              "sources": [
+                "dining",
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "06",
+      "color": "#a05b48"
+    },
+    {
+      "id": "n121",
+      "title": "Мероприятия и бизнес",
+      "note": "Отдельная ветка для B2B-заказчиков и организаторов частных мероприятий.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n111",
+          "title": "Конференц-направление",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n108",
+              "title": "Два конференц-зала",
+              "note": "Заявлены помещения для встреч, семинаров и корпоративных событий.",
+              "kind": "fact",
+              "sources": [
+                "conference"
+              ],
+              "children": []
+            },
+            {
+              "id": "n109",
+              "title": "Оснащение",
+              "note": "Аудио- и видеотехника, мебель, высокоскоростной интернет.",
+              "kind": "fact",
+              "sources": [
+                "conference"
+              ],
+              "children": []
+            },
+            {
+              "id": "n110",
+              "title": "Профессиональные сценарии",
+              "note": "Тимбилдинги, переговоры и семинары описаны на странице.",
+              "kind": "fact",
+              "sources": [
+                "conference"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n115",
+          "title": "Раздел Events",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n112",
+              "title": "/ru/events",
+              "note": "В полученном представлении — заголовок Events и серия изображений.",
+              "kind": "observation",
+              "sources": [
+                "events"
+              ],
+              "children": []
+            },
+            {
+              "id": "n113",
+              "title": "Галерея как доказательство",
+              "note": "Фотографии могут показывать возможности площадки, но не заменяют спецификацию услуги.",
+              "kind": "inference",
+              "sources": [
+                "events"
+              ],
+              "children": []
+            },
+            {
+              "id": "n114",
+              "title": "Навигационное расхождение",
+              "note": "В дополнительном меню booking пункт «Мероприятия» ведёт в /ru/rooms, в верхнем меню главной — в /ru/events.",
+              "kind": "observation",
+              "sources": [
+                "booking",
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n120",
+          "title": "Продуктовая подача",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n116",
+              "title": "Паспорта площадок",
+              "note": "Площадь, вместимость по схемам, оборудование, план помещения и ограничения.",
+              "kind": "recommendation",
+              "sources": [
+                "conference"
+              ],
+              "children": []
+            },
+            {
+              "id": "n117",
+              "title": "Пакет мероприятия",
+              "note": "Проживание + зал + питание + досуг; условия и состав согласовать с отелем.",
+              "kind": "recommendation",
+              "sources": [
+                "conference",
+                "rooms",
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n118",
+              "title": "Бриф организатора",
+              "note": "Дата, тип события, число гостей, формат рассадки и контакт. Это предложение новой формы, не существующая функция.",
+              "kind": "recommendation",
+              "sources": [
+                "events"
+              ],
+              "children": []
+            },
+            {
+              "id": "n119",
+              "title": "Примеры событий",
+              "note": "Добавить кейсы с форматом и результатом, соблюдая права участников.",
+              "kind": "recommendation",
+              "sources": [
+                "events"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "07",
+      "color": "#537344"
+    },
+    {
+      "id": "n135",
+      "title": "Семейный отдых и спорт",
+      "note": "Наличие услуги не доказывает её бесплатность или включение в каждый тариф.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n126",
+          "title": "Детская инфраструктура",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n122",
+              "title": "Две детские зоны",
+              "note": "На отдельной странице описаны открытая и крытая площадки.",
+              "kind": "fact",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n123",
+              "title": "Ежедневно 10:00–22:00",
+              "note": "Это расписание указано на странице детской зоны.",
+              "kind": "fact",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n124",
+              "title": "Услуги няни",
+              "note": "Упомянуты в описании; тариф, возраст и условия не установлены.",
+              "kind": "fact",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n125",
+              "title": "Игры и занятия",
+              "note": "Главная описывает творчество, интерактивные игрушки, PlayStation и тематические события.",
+              "kind": "fact",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n129",
+          "title": "Спортзал",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n127",
+              "title": "Доступ круглосуточно",
+              "note": "Зал предназначен гостям гостиничного комплекса.",
+              "kind": "fact",
+              "sources": [
+                "gym"
+              ],
+              "children": []
+            },
+            {
+              "id": "n128",
+              "title": "Оснащение показано фотографиями",
+              "note": "Подробного инвентаря в прочитанном тексте нет.",
+              "kind": "observation",
+              "sources": [
+                "gym"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n134",
+          "title": "Помочь семье спланировать поездку",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n130",
+              "title": "Возраст и сопровождение",
+              "note": "Уточнить возрастные ограничения, правила присмотра и необходимость присутствия родителей.",
+              "kind": "recommendation",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n131",
+              "title": "Питание и размещение детей",
+              "note": "Связать Family Deluxe, дополнительные места, детское питание и бассейны.",
+              "kind": "recommendation",
+              "sources": [
+                "family",
+                "kids",
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n132",
+              "title": "Календарь занятий",
+              "note": "Добавить программу и способ бронирования няни при наличии такой услуги.",
+              "kind": "recommendation",
+              "sources": [
+                "kids"
+              ],
+              "children": []
+            },
+            {
+              "id": "n133",
+              "title": "Спортивные условия",
+              "note": "Уточнить включённость в тариф, правила посещения и ограничения.",
+              "kind": "recommendation",
+              "sources": [
+                "gym"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "08",
+      "color": "#8c6478"
+    },
+    {
+      "id": "n149",
+      "title": "Контакты и внешние каналы",
+      "note": "Контактные сведения относятся к моменту анализа 16.10.2026 и могут измениться.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n139",
+          "title": "Связь с отелем",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n136",
+              "title": "Ресепшн",
+              "note": "На странице указаны +374 33 85 55 33 и +374 60 85 55 58.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n137",
+              "title": "Ресторан",
+              "note": "Отдельный номер +374 33 82 55 55.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n138",
+              "title": "Email",
+              "note": "Info@dilitown.am. Использование для заявок и скорость ответа не проверялись.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n143",
+          "title": "Как добраться",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n140",
+              "title": "Адрес",
+              "note": "Дилижан, улица Андраник, 3-й переулок, 11.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n141",
+              "title": "Карта Google",
+              "note": "На контактной странице встроена карта и есть адресная ссылка.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n142",
+              "title": "Внешние соцсети",
+              "note": "Присутствуют Facebook и Instagram; содержимое профилей отдельно не анализировалось.",
+              "kind": "fact",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n148",
+          "title": "Удобство обращения",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n144",
+              "title": "Некорректный tel в футере",
+              "note": "В одном tel-адресе объединены два номера с пробелами. Это риск для набора, а не проверенный отказ звонка.",
+              "kind": "observation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n145",
+              "title": "Раздельные действия связи",
+              "note": "Одна кнопка — один номер; явно разделить ресепшн, ресторан и события.",
+              "kind": "recommendation",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n146",
+              "title": "Логистика",
+              "note": "Добавить парковку, подъезд, трансфер и ориентиры, если услуги подтверждены.",
+              "kind": "recommendation",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n147",
+              "title": "Ожидания по ответу",
+              "note": "Указать рабочие часы и подходящий канал для каждой задачи.",
+              "kind": "recommendation",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "09",
+      "color": "#476c7a"
+    },
+    {
+      "id": "n164",
+      "title": "Доверие, документы и карьера",
+      "note": "Это анализ содержания и прозрачности сайта, не заключение о правовом соответствии.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n154",
+          "title": "Пользовательские документы",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n150",
+              "title": "/ru/terms-conditions",
+              "note": "Страница условий существует и содержит блоки о cookie и лицензии.",
+              "kind": "fact",
+              "sources": [
+                "terms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n151",
+              "title": "Следы незаполненного шаблона",
+              "note": "В тексте встречаются общие обозначения компании/сайта и отсылка к Нидерландам. Нужна проверка владельцем, без юридического вывода.",
+              "kind": "observation",
+              "sources": [
+                "terms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n152",
+              "title": "Политика конфиденциальности",
+              "note": "В футере наблюдалось название без самостоятельной ссылки; доступность документа требует проверки.",
+              "kind": "observation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n153",
+              "title": "Актуализировать документы",
+              "note": "Установить владельца, реальные сервисы, порядок работы с данными и ссылки рядом с формами.",
+              "kind": "recommendation",
+              "sources": [
+                "terms"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n159",
+          "title": "Найм сотрудников",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n155",
+              "title": "Список вакансий",
+              "note": "На /ru/career две записи с названием «Менеджер».",
+              "kind": "fact",
+              "sources": [
+                "career"
+              ],
+              "children": []
+            },
+            {
+              "id": "n156",
+              "title": "Два разных URL",
+              "note": "/career/manager и /career/manager-1 имеют схожий перечень требований.",
+              "kind": "observation",
+              "sources": [
+                "manager",
+                "manager1"
+              ],
+              "children": []
+            },
+            {
+              "id": "n157",
+              "title": "Требования менеджеру",
+              "note": "Продажи/маркетинг в гостиничной сфере, опыт 3–5 лет, языки и управление командой.",
+              "kind": "fact",
+              "sources": [
+                "manager"
+              ],
+              "children": []
+            },
+            {
+              "id": "n158",
+              "title": "CTA «Подать заявку»",
+              "note": "Действие отображается; отправка отклика не выполнялась.",
+              "kind": "unverified",
+              "sources": [
+                "manager"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n163",
+          "title": "Редакторская поддержка",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n160",
+              "title": "Владельцы контента",
+              "note": "Закрепить ответственных за номера, SPA, питание, события и документы.",
+              "kind": "recommendation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n161",
+              "title": "Регулярная сверка",
+              "note": "Проверять контакты, часы, вместимость и соответствие тарифным условиям.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms",
+                "contact",
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n162",
+              "title": "Очистка дублей",
+              "note": "Объединить повторяющиеся вакансии либо объяснить различия.",
+              "kind": "recommendation",
+              "sources": [
+                "manager",
+                "manager1"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "10",
+      "color": "#827037"
+    },
+    {
+      "id": "n177",
+      "title": "UX-наблюдения и приоритеты",
+      "note": "Приоритеты — экспертная оценка возможного влияния на выбор и доверие. Это не статистика потерь конверсии.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n165",
+          "title": "P1 · Согласовать пути бронирования",
+          "note": "Две витрины создают риск разрыва выбора. Проверить перенос номера, дат, языка и гостей в конечный модуль.",
+          "kind": "recommendation",
+          "sources": [
+            "rooms",
+            "booking"
+          ],
+          "children": [],
+          "priority": "P1"
+        },
+        {
+          "id": "n166",
+          "title": "P1 · Исправить «Мероприятия»",
+          "note": "Разные контексты меню ведут на events и rooms. Свести к одному назначению.",
+          "kind": "recommendation",
+          "sources": [
+            "home",
+            "booking"
+          ],
+          "children": [],
+          "priority": "P1"
+        },
+        {
+          "id": "n167",
+          "title": "P1 · Сохранить язык",
+          "note": "Футер русской версии содержит адреса без /ru; каталог без префикса отображается по-английски.",
+          "kind": "recommendation",
+          "sources": [
+            "home",
+            "rooms-en"
+          ],
+          "children": [],
+          "priority": "P1"
+        },
+        {
+          "id": "n168",
+          "title": "P1 · Уточнить вместимость",
+          "note": "Разночтения 4–6 / 4 и семейных кроватей / числа гостей влияют на выбор.",
+          "kind": "recommendation",
+          "sources": [
+            "small",
+            "big",
+            "family"
+          ],
+          "children": [],
+          "priority": "P1"
+        },
+        {
+          "id": "n169",
+          "title": "P1 · Привести документы в порядок",
+          "note": "Проверить заполненность условий, ссылку на конфиденциальность и информирование перед отправкой данных.",
+          "kind": "recommendation",
+          "sources": [
+            "terms",
+            "home"
+          ],
+          "children": [],
+          "priority": "P1"
+        },
+        {
+          "id": "n170",
+          "title": "P2 · Разделить телефонные ссылки",
+          "note": "Не объединять несколько номеров в один tel.",
+          "kind": "recommendation",
+          "sources": [
+            "home"
+          ],
+          "children": [],
+          "priority": "P2"
+        },
+        {
+          "id": "n171",
+          "title": "P2 · Удалить test и неполные категории",
+          "note": "Уточнить предложение трёхспальных апартаментов, убрать служебный элемент.",
+          "kind": "recommendation",
+          "sources": [
+            "rooms",
+            "three"
+          ],
+          "children": [],
+          "priority": "P2"
+        },
+        {
+          "id": "n172",
+          "title": "P2 · Переписать «О нас»",
+          "note": "Объяснить весь курорт, а не только ресторан.",
+          "kind": "recommendation",
+          "sources": [
+            "about"
+          ],
+          "children": [],
+          "priority": "P2"
+        },
+        {
+          "id": "n173",
+          "title": "P2 · Локализовать подписи",
+          "note": "В RU-страницах встречаются Events, FEATURE и английские названия. Сохранить названия брендов, перевести служебные подписи.",
+          "kind": "recommendation",
+          "sources": [
+            "events",
+            "rooms"
+          ],
+          "children": [],
+          "priority": "P2"
+        },
+        {
+          "id": "n174",
+          "title": "P2 · Понятные CTA",
+          "note": "Заменить повторяющееся «Ещё» контекстными действиями там, где это улучшит навигацию.",
+          "kind": "recommendation",
+          "sources": [
+            "home"
+          ],
+          "children": [],
+          "priority": "P2"
+        },
+        {
+          "id": "n175",
+          "title": "Проверить отдельно · доступность",
+          "note": "Неназванная кнопка и общие подписи изображений замечены в доступном представлении. Требуется клавиатурный и экранный аудит, а не готовый вердикт WCAG.",
+          "kind": "unverified",
+          "sources": [
+            "home"
+          ],
+          "children": []
+        },
+        {
+          "id": "n176",
+          "title": "Проверить отдельно · скорость и SEO",
+          "note": "Lighthouse, Core Web Vitals, индексация, hreflang, canonical и schema не измерялись. Нельзя считать их неисправными без проверки.",
+          "kind": "unverified",
+          "sources": [
+            "home"
+          ],
+          "children": []
+        }
+      ],
+      "number": "11",
+      "color": "#945642"
+    },
+    {
+      "id": "n200",
+      "title": "Целевая модель и измерения",
+      "note": "Целевая структура, сценарии и метрики — предложения автора анализа, отдельно от фактов действующего сайта.",
+      "kind": "group",
+      "sources": [],
+      "children": [
+        {
+          "id": "n184",
+          "title": "Рекомендуемая архитектура",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n178",
+              "title": "Проживание",
+              "note": "Каталог → категория → номер → единое бронирование.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n179",
+              "title": "Wellness",
+              "note": "Бассейны, зоны SPA, процедуры, условия и запись.",
+              "kind": "recommendation",
+              "sources": [
+                "spa"
+              ],
+              "children": []
+            },
+            {
+              "id": "n180",
+              "title": "Гастрономия",
+              "note": "Ресторан, бары, меню, часы и резерв стола.",
+              "kind": "recommendation",
+              "sources": [
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n181",
+              "title": "События",
+              "note": "Частные события и конференции → площадки → бриф.",
+              "kind": "recommendation",
+              "sources": [
+                "events",
+                "conference"
+              ],
+              "children": []
+            },
+            {
+              "id": "n182",
+              "title": "Семья и активности",
+              "note": "Детские зоны, расписание, спорт и правила.",
+              "kind": "recommendation",
+              "sources": [
+                "kids",
+                "gym"
+              ],
+              "children": []
+            },
+            {
+              "id": "n183",
+              "title": "О курорте / Как добраться",
+              "note": "История, подтверждённые преимущества, адрес и контактные каналы.",
+              "kind": "recommendation",
+              "sources": [
+                "about",
+                "contact"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n189",
+          "title": "Сценарии гостя",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n185",
+              "title": "Пара на выходные",
+              "note": "Номер → SPA → даты → условия → бронирование.",
+              "kind": "inference",
+              "sources": [
+                "rooms",
+                "spa",
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n186",
+              "title": "Семья",
+              "note": "Вместимость → дети/няня → питание → полная стоимость → бронирование.",
+              "kind": "inference",
+              "sources": [
+                "family",
+                "kids",
+                "dining"
+              ],
+              "children": []
+            },
+            {
+              "id": "n187",
+              "title": "Организатор",
+              "note": "Площадка → вместимость → оснащение → размещение → запрос.",
+              "kind": "inference",
+              "sources": [
+                "conference",
+                "dining",
+                "rooms"
+              ],
+              "children": []
+            },
+            {
+              "id": "n188",
+              "title": "Гость без проживания",
+              "note": "Ресторан или SPA → правила доступа → контакт/запись. Доступность внешним гостям требует подтверждения.",
+              "kind": "inference",
+              "sources": [
+                "spa",
+                "dining"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n194",
+          "title": "Что измерять после настройки",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n190",
+              "title": "Воронка размещения",
+              "note": "Доля переходов из каталога в бронирование, завершения, ошибки и отсутствие мест. Текущие значения неизвестны.",
+              "kind": "recommendation",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n191",
+              "title": "Обращения по услугам",
+              "note": "Клики звонка, email, маршрута и заявки, раздельно по направлениям.",
+              "kind": "recommendation",
+              "sources": [
+                "contact"
+              ],
+              "children": []
+            },
+            {
+              "id": "n192",
+              "title": "Сегменты",
+              "note": "Сравнивать язык, устройство и источник трафика при корректной настройке согласия.",
+              "kind": "recommendation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n193",
+              "title": "Контент и качество",
+              "note": "Частота ошибок навигации, незаполненные карточки и актуальность данных.",
+              "kind": "recommendation",
+              "sources": [
+                "rooms"
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "n199",
+          "title": "Границы исследования",
+          "note": "",
+          "kind": "group",
+          "sources": [],
+          "children": [
+            {
+              "id": "n195",
+              "title": "Дата · 16 октября 2026",
+              "note": "Изучены открытые страницы RU, карточки и видимая навигация; языки AM/EN полностью не сверялись.",
+              "kind": "observation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            },
+            {
+              "id": "n196",
+              "title": "Без доступа к внутренним системам",
+              "note": "Нет данных CRM/PMS, трафика, продаж, реальных конверсий и договорных условий.",
+              "kind": "unverified",
+              "sources": [
+                "booking"
+              ],
+              "children": []
+            },
+            {
+              "id": "n197",
+              "title": "Без транзакционных проверок",
+              "note": "Бронь, оплата, отправка контактов и отклик на вакансию не выполнялись.",
+              "kind": "unverified",
+              "sources": [
+                "booking",
+                "manager"
+              ],
+              "children": []
+            },
+            {
+              "id": "n198",
+              "title": "Материалы сайта — заявления владельца",
+              "note": "Вместимости и описание услуг не подтверждены независимым обследованием. Карта не является официальным документом отеля.",
+              "kind": "observation",
+              "sources": [
+                "home"
+              ],
+              "children": []
+            }
+          ]
+        }
+      ],
+      "number": "12",
+      "color": "#58648a"
+    }
+  ]
+}

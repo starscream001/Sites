@@ -4,3 +4,4 @@ dist/
 backups/
 .DS_Store
 *.tar.gz
+work/
