@@ -1,8 +1,9 @@
 import {validate} from './validate.mjs';
-import {readFile,writeFile,mkdir,cp,rm} from 'node:fs/promises';
+import {access,readFile,writeFile,mkdir,cp,rm} from 'node:fs/promises';
 export const esc=v=>String(v??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 export async function build(){
 const d=validate(JSON.parse(await readFile('content/site.json','utf8')));
+for(const image of d.images)await access('public/'+image.file);
 await rm('dist',{recursive:true,force:true});const articles=d.articles.filter(a=>a.published); d.events=d.events.filter(e=>articles.some(a=>a.id===e.article)); d.plants=d.plants.filter(p=>articles.some(a=>a.id===p.article)); const src=id=>d.sources.find(s=>s.id===id);const base=process.env.SITE_URL||'https://starscream001.github.io/Sites';
 await mkdir('dist',{recursive:true});await cp('public','dist',{recursive:true});
 const nav=[['about','О книге'],['contents','Содержание'],['history','История'],['asia','Азия'],['europe','Европа'],['timeline','Хронология'],['gallery','Галерея']];
