@@ -1,0 +1,15 @@
+export function validate(d){
+const fail=m=>{throw new Error(m)};const str=(x,n)=>{if(typeof x!=='string'||x.length>50000)fail('Некорректное поле: '+n)};if(!d||typeof d!=='object')fail('Нужен объект данных');for(const k of ['title','subtitle','email'])str(d[k],k);if(d.email&&!/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(d.email))fail('Некорректный email');
+for(const k of ['articles','sources','events','plants','news'])if(!Array.isArray(d[k])||d[k].length>2000)fail('Некорректная коллекция '+k);
+const ids=new Set();const reserved=new Set(['index','about','contents','history','asia','europe','timeline','gallery','plants','sources','search','news','contacts','privacy','404','admin']);
+for(const a of d.articles){if(!/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(a.id)||reserved.has(a.id)||ids.has(a.id))fail('ID статьи должен быть уникальным латинским slug');ids.add(a.id);for(const k of ['title','section','region','era','summary','type'])str(a[k],k);if(typeof a.published!=='boolean')fail('published должен быть boolean');for(const k of ['headings','paragraphs','sources']){if(!Array.isArray(a[k]))fail(k+' должен быть списком');a[k].forEach(v=>str(v,k))}if(a.headings.length!==a.paragraphs.length)fail('Число заголовков и абзацев должно совпадать')}
+const sid=new Set();for(const s of d.sources){if(!/^[a-z0-9-]+$/.test(s.id)||sid.has(s.id))fail('Некорректный ID источника');sid.add(s.id);for(const k of ['title','author','year','region','url'])str(s[k],k);if(!/^https:\/\//.test(s.url))fail('Источник должен иметь HTTPS URL');try{new URL(s.url)}catch{fail('Некорректный URL')}}
+for(const a of d.articles)for(const id of a.sources)if(!sid.has(id))fail('Нет источника '+id);
+for(const e of d.events){if(!Number.isInteger(e.year)||e.year< -10000||e.year>2100)fail('Некорректный год');for(const k of ['title','region','type','certainty','article','source'])str(e[k],k);if(!ids.has(e.article)||!sid.has(e.source))fail('Связь события не найдена')}
+const pid=new Set();for(const p of d.plants){for(const k of ['id','title','latin','origin','use','context','article','source'])str(p[k],k);if(!/^[a-z0-9-]+$/.test(p.id)||pid.has(p.id))fail('Некорректный ID растения');pid.add(p.id);if(!ids.has(p.article)||!sid.has(p.source))fail('Связь растения не найдена')}
+for(const n of d.news)for(const k of ['date','title','text'])str(n[k],k);
+if(!Array.isArray(d.menu)||d.menu.length>12)fail('Меню: максимум 12 пунктов');for(const m of d.menu){str(m.title,'title');if(!/^[a-z0-9-]+\.html$/.test(m.url))fail('Меню: нужен локальный адрес .html')}
+if(!Array.isArray(d.featured))fail('Избранные материалы должны быть списком');for(const id of d.featured)if(!ids.has(id))fail('Не найдена избранная статья '+id);
+if(!Array.isArray(d.images))fail('Нужен список изображений');for(const image of d.images){for(const k of ['id','title','file','alt','author','year','license','kind'])str(image[k],k);if(!/^assets\/[a-zA-Z0-9_-]+\.(svg|png|jpg|webp)$/.test(image.file))fail('Некорректный путь изображения')}
+return d;
+}

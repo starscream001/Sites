@@ -1,11 +1,1 @@
-{
-  "name": "grafik-446",
-  "version": "1.0.0",
-  "private": true,
-  "type": "module",
-  "scripts": {
-    "dev": "node scripts/serve.mjs",
-    "build": "node scripts/build.mjs",
-    "test": "node --test scripts/schedule.test.mjs"
-  }
-}
+{"name":"flora-historia","version":"1.0.0","private":true,"type":"module","engines":{"node":">=22"},"scripts":{"build":"node scripts/build.mjs","dev":"node server.mjs","start":"node server.mjs","test":"node --test scripts/test.mjs"}}
